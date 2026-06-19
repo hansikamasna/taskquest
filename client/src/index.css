@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom game-themed utilities */
+@layer utilities {
+  .text-glow-purple {
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.8), 0 0 40px rgba(124, 58, 237, 0.4);
+  }
+  .text-glow-blue {
+    text-shadow: 0 0 20px rgba(96, 165, 250, 0.8), 0 0 40px rgba(37, 99, 235, 0.4);
+  }
+  .text-glow-green {
+    text-shadow: 0 0 20px rgba(52, 211, 153, 0.8), 0 0 40px rgba(5, 150, 105, 0.4);
+  }
+  .border-glow-purple {
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.4), inset 0 0 15px rgba(124, 58, 237, 0.1);
+  }
+  .border-glow-blue {
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.4), inset 0 0 15px rgba(37, 99, 235, 0.1);
+  }
+  .border-glow-green {
+    box-shadow: 0 0 15px rgba(5, 150, 105, 0.4), inset 0 0 15px rgba(5, 150, 105, 0.1);
+  }
+  .card-glass {
+    background: rgba(26, 26, 46, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(124, 58, 237, 0.2);
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(124, 58, 237, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124, 58, 237, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+/* Particle animation for background */
+@keyframes particle-float {
+  0% { transform: translateY(100vh) scale(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+}
+
+.particle {
+  animation: particle-float linear infinite;
+}
+
+/* Scan line effect */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Drag and drop styles */
+.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+}
+
+.drag-over {
+  border-color: rgba(124, 58, 237, 0.8) !important;
+  background: rgba(124, 58, 237, 0.05) !important;
+}
