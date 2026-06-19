@@ -1,23 +1,23 @@
-# 🎮 TaskQuest — Gamified Collaborative Task Manager
+#  TaskQuest — Gamified Collaborative Task Manager
 
 A full-stack MERN application where task management feels like a video game. Projects are **Levels**, tasks are **Missions**, and your team are **Players**.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎮 Game-themed UI with dark neon aesthetic
-- 🗺️ Level Select screen (project roadmap)
-- 📋 Kanban Board with drag-and-drop
-- ⚡ Real-time sync via Socket.io
-- 🔐 JWT Authentication
-- 👥 Team collaboration with member invites
-- 📊 Progress bars per project
-- 🏆 XP system on task completion
+-  Game-themed UI with dark neon aesthetic
+-  Level Select screen (project roadmap)
+-  Kanban Board with drag-and-drop
+-  Real-time sync via Socket.io
+-  JWT Authentication
+-  Team collaboration with member invites
+-  Progress bars per project
+-  XP system on task completion
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology              |
 |------------|-------------------------|
@@ -30,7 +30,7 @@ A full-stack MERN application where task management feels like a video game. Pro
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 taskquest/
@@ -56,7 +56,7 @@ taskquest/
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Node.js v16+
@@ -134,7 +134,7 @@ App runs at: `http://localhost:3000`
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
 1. **Register** a new account (Character Creation)
 2. **Login** to enter the Game Lobby
@@ -143,11 +143,11 @@ App runs at: `http://localhost:3000`
 5. **Add Tasks** (Missions) using the "+ MISSION" button
 6. **Drag tasks** between columns as work progresses
 7. **Invite teammates** using their email
-8. **Complete tasks** to earn XP! ⚡
+8. **Complete tasks** to earn XP! 
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint              | Description       |
@@ -176,7 +176,7 @@ App runs at: `http://localhost:3000`
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 **MongoDB connection failed?**
 - Make sure MongoDB is running: `mongod`
@@ -192,7 +192,7 @@ App runs at: `http://localhost:3000`
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 - **Theme colors**: Edit `client/tailwind.config.js`
 - **Columns**: Edit `COLUMNS` array in `BoardPage.jsx`
@@ -201,4 +201,19 @@ App runs at: `http://localhost:3000`
 
 ---
 
-Built with ❤️ and ⚡ — TaskQuest
+## Screenshots
+<img width="1912" height="1001" alt="Screenshot 2026-06-19 155803" src="https://github.com/user-attachments/assets/acee5186-27c2-48b3-8cc2-febb2de5d05c" />
+<img width="1913" height="961" alt="Screenshot 2026-06-19 155831" src="https://github.com/user-attachments/assets/3a41e26a-1bad-405c-8402-71355b2733f1" />
+<img width="1911" height="956" alt="Screenshot 2026-06-19 155928" src="https://github.com/user-attachments/assets/8f2b7828-df39-4cd2-a98a-ae4e909a6d9c" />
+<img width="1907" height="945" alt="Screenshot 2026-06-19 155953" src="https://github.com/user-attachments/assets/6d7bfe8d-d26a-4f81-afba-b31046328b68" />
+<img width="1808" height="663" alt="Screenshot 2026-06-19 160012" src="https://github.com/user-attachments/assets/497b576d-97c0-4479-afdf-7e6fd1615b1e" />
+<img width="1911" height="951" alt="Screenshot 2026-06-19 160033" src="https://github.com/user-attachments/assets/b2b2da4c-c147-4ee5-9706-d7ddb1944c51" />
+<img width="1907" height="952" alt="Screenshot 2026-06-19 160050" src="https://github.com/user-attachments/assets/2acd64f6-2d21-4490-b6e6-59042f4ad3f0" />
+<img width="1907" height="953" alt="Screenshot 2026-06-19 160129" src="https://github.com/user-attachments/assets/3235b1f3-f25a-43ce-81d2-fd79961214ed" />
+<img width="1907" height="946" alt="Screenshot 2026-06-19 160151" src="https://github.com/user-attachments/assets/a68cc6c8-a98b-4f96-9f99-36636d6346a8" />
+
+
+
+
+
+
