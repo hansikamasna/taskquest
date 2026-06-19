@@ -1,6 +1,5 @@
 node_modules/
-.env
+.cache/
 dist/
 build/
-__pycache__/
-*.pyc
+.env
